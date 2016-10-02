@@ -39,7 +39,7 @@ MainController.$inject = ['DataSourceMenuService'];
 function MainController(DataSourceMenu) {
   var controller = this;
 
-  controller.searchTerm = 'soup';
+  controller.searchTerm = '';
   controller.found = [];
   controller.exception = '';
 
