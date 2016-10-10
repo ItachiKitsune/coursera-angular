@@ -54,7 +54,7 @@
           $http(
             {
                 method: 'GET',
-                url: 'http://davids-restaurant.herokuapp.com/categories.json'
+                url: 'https://davids-restaurant.herokuapp.com/categories.json'
             }
           ).then(
             function success(response)
